@@ -1,0 +1,8 @@
+
+#search_icon{
+	margin-top:-4px;
+}
+
+input:focus{
+	border-bottom-color:white;
+}
