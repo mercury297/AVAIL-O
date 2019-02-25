@@ -82,7 +82,7 @@
 		$(document).ready(async function(){
 			$('.sidenav').sidenav();
       var txt = "";
-      var req = await fetch('http://localhost:3000/officers');
+      var req = await fetch('http://availo-api.herokuapp.com/officers');
       console.log(req);
       var json = await req.json();
       console.log(json.length);
